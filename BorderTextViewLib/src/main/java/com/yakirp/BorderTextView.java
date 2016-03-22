@@ -102,7 +102,7 @@ public class BorderTextView extends LinearLayout {
 
         setTextView((TextView) findViewById(R.id.border_text_view));
         getTextView().setText(text.toUpperCase());
-        getTextView().setPadding(pa, pa, pa, pa);
+        getTextView().setPadding(10, 8, 10, 8);
         Typeface tf3 = Typeface.createFromAsset(context.getAssets(), FONT);
         getTextView().setTypeface(tf3);
         getTextView().setTextColor(color);
