@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
-    <declare-styleable name="BorderTextView">
+    <declare-styleable name="BorderTextView1">
         <attr name="android:text"/>
         <attr name="textPadding" format="string"/>
         <attr name="android:textColor"/>

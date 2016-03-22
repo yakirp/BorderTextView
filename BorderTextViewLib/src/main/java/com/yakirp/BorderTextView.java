@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.mylibrary.R;
+
 
 /**
  * Created by yakirp on 3/21/2016.
@@ -39,11 +39,11 @@ public class BorderTextView extends LinearLayout {
     public BorderTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.BorderTextView);
-        text = a.getString(R.styleable.BorderTextView_android_text);
-        textSize = a.getString(R.styleable.BorderTextView_android_textSize);
-        padding = a.getString(R.styleable.BorderTextView_textPadding);
-        color = a.getColor(R.styleable.BorderTextView_android_textColor, Color.BLACK);
+        TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.BorderTextView1);
+        text = a.getString(R.styleable.BorderTextView1_android_text);
+        textSize = a.getString(R.styleable.BorderTextView1_android_textSize);
+        padding = a.getString(R.styleable.BorderTextView1_textPadding);
+        color = a.getColor(R.styleable.BorderTextView1_android_textColor, Color.BLACK);
         //Don't forget this
         a.recycle();
         initControl(context, attrs);
