@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BorderTextView.iml" filepath="$PROJECT_DIR$/BorderTextView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BorderTextView.iml" filepath="$PROJECT_DIR$/BorderTextView.iml" />
       <module fileurl="file://$PROJECT_DIR$/BorderTextViewLib/BorderTextViewLib.iml" filepath="$PROJECT_DIR$/BorderTextViewLib/BorderTextViewLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

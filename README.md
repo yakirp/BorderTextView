@@ -1,8 +1,8 @@
 # BorderTextView
 BorderTextView
 
-
-Add it in your root build.gradle at the end of repositories:
+Step 1. .
+Add the JitPack repository to your root build.gradle at the end of repositories:
 ```
 	allprojects {
 		repositories {
@@ -12,19 +12,15 @@ Add it in your root build.gradle at the end of repositories:
 	}
 ```
 
-
+Step 2. 
 Add the dependency
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url "https://jitpack.io" }
-		}
+dependencies {
+	        compile 'com.github.yakirp:BorderTextView:0.0.5'
 	}
 ```
 
 Usage :
-
 ``` xml
     <com.yakirp.BorderTextView
         android:id="@+id/shareButton"
