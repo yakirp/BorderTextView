@@ -1,7 +1,4 @@
-# BorderTextView
-BorderTextView
-
-Step 1. .
+Step 1.
 Add the JitPack repository to your root build.gradle at the end of repositories:
 ```
 	allprojects {
